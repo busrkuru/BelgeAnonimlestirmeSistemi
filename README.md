@@ -1,3 +1,22 @@
+# Belge Anonimleştirme Sistemi 
+Bu proje, akademik makalelerdeki yazar adı, kurum bilgisi ve e-posta adresi gibi kimlik belirleyici bilgileri anonimleştirmek amacıyla geliştirilmiştir. Sistem, PDF dosyalarını analiz ederek belirlenen öğeleri otomatik olarak tespit eder ve kullanıcıya sunulan seçeneklerle bu verileri kaldırır veya şifreleyerek anonimleştirilmiş sürümünü üretir.
+
+# Özellikler
+
+-  PDF dosyalarından yazar ve kurum bilgisini çıkarma
+-  NLP tabanlı kişi ve organizasyon tanıma (spaCy kullanılarak)
+-  AES-256 ile metin verilerini şifreleme
+-  PDF içindeki görsellerdeki metinleri bulanıklaştırma (image redaction)
+-  Kullanıcı, Editör ve Hakem rolleri için panel arayüzü
+-  Anonimleştirilmiş ve orijinal dosyaların saklanması
+-  Dinamik arama ve filtreleme desteği
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **Backend:** Python (Flask), spaCy, pdfplumber, PyMuPDF, Cryptography
+- **Frontend:** React.js (Tailwind CSS ile)
+- **Veritabanı:** Azure SQL
+- **Diğer:** Docker, Git, Node.js, Express (API için)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
