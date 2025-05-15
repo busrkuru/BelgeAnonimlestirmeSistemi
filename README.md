@@ -13,10 +13,8 @@ Bu proje, akademik makalelerdeki yazar adı, kurum bilgisi ve e-posta adresi gib
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- **Backend:** Python (Flask), spaCy, pdfplumber, PyMuPDF, Cryptography
+- **Backend:** Python (Flask), spaCy, pdfplumber, PyMuPDF
 - **Frontend:** React.js (Tailwind CSS ile)
-- **Veritabanı:** Azure SQL
-- **Diğer:** Docker, Git, Node.js, Express (API için)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
